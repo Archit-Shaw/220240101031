@@ -18,6 +18,8 @@ frontend/.env
 frontend/build/
 backend/dist/
 
+Add-Content -Path .gitignore -Value "`n# Ignore env and logs`n.env`n*.env`nbackend/.env`nfrontend/.env`napp-logs.ndjson`n"
+
 # System files
 .DS_Store
 Thumbs.db
